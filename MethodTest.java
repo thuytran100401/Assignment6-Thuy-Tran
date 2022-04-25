@@ -28,31 +28,31 @@ public class MethodTest {
 
         // Add list String
         ArrayList<Object> listString = new ArrayList<Object>();
-        listString.add("This");
-        listString.add("is");
-        listString.add("my");
-        listString.add("best");
-        listString.add("World");
+        listString.add("Hit");
+        listString.add("Thuy");
+        listString.add("pink");
+        listString.add("black");
+        listString.add("Lisa");
 
         // Add list Integer
         ArrayList<Object> listInteger = new ArrayList<Object>();
-        listInteger.add(1);
-        listInteger.add(2);
         listInteger.add(3);
         listInteger.add(4);
+        listInteger.add(10);
+        listInteger.add(11);
+        listInteger.add(12);
         listInteger.add(5);
-        listInteger.add(6);
 
         // Add list double
         ArrayList<Object> listDouble = new ArrayList<Object>();
-        listDouble.add(1.11);
-        listDouble.add(2.22);
-        listDouble.add(7.87);
-        listDouble.add(9.203);
-        listDouble.add(100.23);
-        listDouble.add(789.987);
-        listDouble.add(1231.322);
-        listDouble.add(0.1234);
+        listDouble.add(1.90);
+        listDouble.add(4.76);
+        listDouble.add(100.09);
+        listDouble.add(200.89);
+        listDouble.add(10.80);
+        listDouble.add(11.67);
+        listDouble.add(45.8976);
+        listDouble.add(78.975);
 
         // Print
         System.out.println("Count elements in list String: " + count(listString));
