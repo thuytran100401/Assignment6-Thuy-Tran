@@ -18,7 +18,7 @@ import java.util.List;
 public class MethodTest {
     public static <E> int count(List<E> list) {
         int count = 0;
-        for (E e : list) {
+        for (E i : list) {
             ++count;
         }
         return count;
@@ -27,37 +27,37 @@ public class MethodTest {
     public static void main(String[] args) {
 
         // Add list String
-        ArrayList<Object> listString = new ArrayList<Object>();
-        listString.add("Hit");
-        listString.add("Thuy");
-        listString.add("pink");
-        listString.add("black");
-        listString.add("Lisa");
+        ArrayList<String> stringList = new ArrayList<String>();
+        stringList.add("Hi");
+        stringList.add("Thuy");
+        stringList.add("pink");
+        stringList.add("black");
+        stringList.add("Lisa");
 
         // Add list Integer
-        ArrayList<Object> listInteger = new ArrayList<Object>();
-        listInteger.add(3);
-        listInteger.add(4);
-        listInteger.add(10);
-        listInteger.add(11);
-        listInteger.add(12);
-        listInteger.add(5);
+        ArrayList<Integer> intergerList = new ArrayList<Integer>();
+        intergerList.add(3);
+        intergerList.add(4);
+        intergerList.add(10);
+        intergerList.add(11);
+        intergerList.add(12);
+        intergerList.add(5);
 
         // Add list double
-        ArrayList<Object> listDouble = new ArrayList<Object>();
-        listDouble.add(1.90);
-        listDouble.add(4.76);
-        listDouble.add(100.09);
-        listDouble.add(200.89);
-        listDouble.add(10.80);
-        listDouble.add(11.67);
-        listDouble.add(45.8976);
-        listDouble.add(78.975);
+        ArrayList<Double> doubleList = new ArrayList<Double>();
+        doubleList.add(1.90);
+        doubleList.add(4.76);
+        doubleList.add(100.09);
+        doubleList.add(200.89);
+        doubleList.add(10.80);
+        doubleList.add(11.67);
+        doubleList.add(45.8976);
+        doubleList.add(78.975);
 
         // Print
-        System.out.println("Count elements in list String: " + count(listString));
-        System.out.println("Count elements in list Integer: " + count(listInteger));
-        System.out.println("Count elements in list Double: " + count(listDouble));
+        System.out.println("Total elements in the list of String: " + count(stringList));
+        System.out.println("Total elements in the list of Integer: " + count(intergerList));
+        System.out.println("Total elements in the list of Double: " + count(doubleList));
 
     }
 }
